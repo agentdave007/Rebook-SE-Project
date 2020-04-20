@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#052586</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name ="ColorBackGroundSplash">#2196F3</color>
+    <color name="SplashPhotoBackGround">#FFC107</color>
+    <color name="whiteColorGradient">#ffffff</color>
+    <color name="control_background">#cc4285f4</color>
+    <color name="logo_background">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="pink">#AD1457</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#671919</color>
+    <color name="green">#00ff00</color>
+    <color name="purple">#BD1AE2</color>
+    <color name="orangish">#DAA480</color>
+    <color name="light_blue">#36B3FC</color>
+
+    <color name="random">#E65100</color>
+
+    <color name="recyclerviewBackground">#dedede</color>
+</resources>

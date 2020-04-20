@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "450683382806",
+    "firebase_url": "https://rebook-bookthebooks.firebaseio.com",
+    "project_id": "rebook-bookthebooks",
+    "storage_bucket": "rebook-bookthebooks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450683382806:android:87c69648ec304a9485d937",
+        "android_client_info": {
+          "package_name": "com.example.rebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450683382806-lr5808epof2co5e873iqacplqs47g83n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rebook",
+            "certificate_hash": "59bafee2952cc4a4ba05207e7ebc01dbaf5c1d5a"
+          }
+        },
+        {
+          "client_id": "450683382806-v6bu2aqbrsagnicccrrstai3oj4hgfga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8InK15MJEVRiG2DKDypCFD6JWf20S50Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450683382806-v6bu2aqbrsagnicccrrstai3oj4hgfga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

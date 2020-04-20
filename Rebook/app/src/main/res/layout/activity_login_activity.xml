@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootConstraint"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivity_gradient_list"
+    tools:context=".login.LoginActivity">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:indeterminate="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logoimageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/logo_round"
+            android:contentDescription="@string/app_name"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            style="@style/titleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appTitle"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/mainactivity_background_email"
+            android:hint="@string/Email_hint"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+        <EditText
+            android:id="@+id/email_pwd"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/mainactivity_background_email"
+            android:hint="@string/Email_pwd"
+            android:inputType="textPassword"
+            android:paddingTop="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="269dp" />
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/login_template"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginBottom="60dp"
+        android:text="@string/forgot_password"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_cyclic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
