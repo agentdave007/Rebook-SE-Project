@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "450683382806-lr5808epof2co5e873iqacplqs47g83n.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.rebook",
-            "certificate_hash": "59bafee2952cc4a4ba05207e7ebc01dbaf5c1d5a"
-          }
-        },
-        {
           "client_id": "450683382806-v6bu2aqbrsagnicccrrstai3oj4hgfga.apps.googleusercontent.com",
           "client_type": 3
         }
