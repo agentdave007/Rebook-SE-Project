@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Prince agarwal"
+            android:text="Rakshit"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -57,7 +57,7 @@
             android:id="@+id/user_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="agarwalprince920@gmail.com"
+            android:text="kumarrakshit2000@gmail.com"
             android:textAlignment="center"
             android:textColor="@color/black" />
     </LinearLayout>

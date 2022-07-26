@@ -42,15 +42,15 @@ public class MyAddressesActivity extends AppCompatActivity {
         deliverHereBtn= findViewById(R.id.deliver_here_btn);
 
         List<AddressesModel> addressesModelList = new ArrayList<>();
-        addressesModelList.add(new AddressesModel("Prince Agarwal"," Laxmi Nagar (8929687383)", "110092",true));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way", "403401",false));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way galaxy", "423442",false));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way", "403402",false));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way", "403402",false));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way", "403402",false));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way", "423442",false));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way", "403402",false));
-        addressesModelList.add(new AddressesModel("Prince"," Earth Milky way", "403402",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Laxmi Nagar (8929687383)", "110092",true));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way", "403401",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way galaxy", "423442",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way", "403402",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way", "403402",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way", "403402",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way", "423442",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way", "403402",false));
+        addressesModelList.add(new AddressesModel("Rakshit"," Earth Milky way", "403402",false));
 
         int mode= getIntent().getIntExtra("MODE",-1);
         if(mode==SELECT_ADDRESS){

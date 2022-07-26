@@ -81,7 +81,7 @@ public class profile extends AppCompatActivity implements AdapterView.OnItemSele
                 birthdate.setText(date);
             }
         };
-        Toast.makeText(profile.this, "Welcome Prince", Toast.LENGTH_SHORT).show();
+        Toast.makeText(profile.this, "Welcome Rakshit", Toast.LENGTH_SHORT).show();
     }
 
     public void savenext(View view){
